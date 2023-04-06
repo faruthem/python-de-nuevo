@@ -11,11 +11,14 @@
    numero = 4"""
 """ for numero in range(5):
     print(numero, numero * 'Hola mundo ') """
-buscar = int(input("¿Qué número deseas buscar?: "))
-for numero in range(5):
+"""buscar = int(input("¿Qué número deseas buscar?: "))
+for numero in range(6):
     print(numero)
     if numero == buscar:
         print("Encontrado", buscar)
         break
 else:
     print("No se encontró el número chato")
+"""
+for char in "ultimate python":
+    print(char)
